@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.cloudword" name="Cloudword Repository" version="1.0.0" provider-name="Cloudword">
+	<extension point="xbmc.addon.repository" name="Cloudword Repository">
+		<info compressed="false">http://raw.github.com/cloudwordinst/cloudword-repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/cloudwordinst/cloudword-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/cloudwordinst/cloudword-repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official Cloudword Repository</summary>
+		<description>The official Cloudword Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>

@@ -1,0 +1,19 @@
+v2.0.0
+Re-write downloader for python v2.7.9+
+Add system check. (If running on Pure Linux, reboot device to force apply guisettings.xml chages)
+Add full system configuration to cloudwords installed on Pure Linux.
+    - Placing a folder named "ROOT" in the cloudword will apply anything inside that folder to the /root/ folder.
+Mask Python code
+
+v1.0.3
+New modifications done to source
+
+V1.0.2
+New Fork
+
+v1.0.1
+Minor Corrections
+Update Name to Cloudword
+
+v1.0.0
+Initial Release

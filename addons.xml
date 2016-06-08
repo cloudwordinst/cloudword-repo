@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.cloudwordlite" version="2.0.0" name="CLOUDWORD" provider-name="CLOUDWORD / Josh.5">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>CLOUDWORD</summary>
+	<description>Cloudword allows for installation of a backup you place on a public source.
+	</description>
+<forum></forum>
+		<website></website>
+<platform>all</platform>
+</extension>
+</addon>
+
+<addon id="repository.cloudword" name="Cloudword Repository" version="1.0.0" provider-name="Cloudword">
+	<extension point="xbmc.addon.repository" name="Cloudword Repository">
+		<info compressed="false">http://raw.github.com/cloudwordinst/cloudword-repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/cloudwordinst/cloudword-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/cloudwordinst/cloudword-repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official Cloudword Repository</summary>
+		<description>The official Cloudword Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

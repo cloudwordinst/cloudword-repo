@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.cloudwordlite" version="2.0.0" name="CLOUDWORD" provider-name="CLOUDWORD / Josh.5">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>CLOUDWORD</summary>
+	<description>Cloudword allows for installation of a backup you place on a public source.
+	</description>
+<forum></forum>
+		<website></website>
+<platform>all</platform>
+</extension>
+</addon>
